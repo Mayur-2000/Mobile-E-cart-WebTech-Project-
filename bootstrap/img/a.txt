@@ -1,0 +1,56 @@
+INSERT INTO devices VALUES('iphone 7','A1778','Apple','IPhone_7.png','The iPhone 7 features a 28mm 12-megapixel camera with optical image stabilization, a wider f/1.8 aperture 6-element lens, wide color capture, and a revamped Apple image signal processor, all of which result in brighter, sharper, more detailed photos, even in low-light conditions',44000)
+INSERT INTO devices VALUES('iphone 7 plus','A1785','Apple','IPhone_7_Plus.png','The Apple iPhone 7 Plus is a smartphone that was tested with the iOS 10.0. 2 operating system. This model weighs 6.6 ounces, has a 5.5 inch touch screen display, 12-megapixel main camera, and 7-megapixel selfie camera. It comes with 3GB of RAM.',33000)
+INSERT INTO devices VALUES('iphone 8','A1792','Apple','IPhone_8.png','The iPhone 8 features a 4.7-inch display with a resolution of 1334 by 750 with 326 pixels per inch and a 1400:1 contrast ratio, while the iPhone 8 Plus features a 5.5-inch display with a 1920 by 1080 resolution, 401 pixels per inch, and a 1300:1 contrast ratio.',55499)
+INSERT INTO devices VALUES('iphone X','A1901','Apple','Iphone_X.jpg','The iPhone X was Apple's flagship 10th anniversary iPhone featuring a 5.8-inch OLED display, facial recognition and 3D camera functionality, a glass body, and an A11 Bionic processor. Launched November 3, 2017, discontinued with the launch of the iPhone XR, XS, and XS Max',72499)
+INSERT INTO devices VALUES('iphone 11 Pro',' A2160','Apple','IPhone_11_Pro.jpg','The phone comes with a 5.80-inch touchscreen display with a resolution of 1125x2436 pixels at a pixel density of 458 pixels per inch (ppi). iPhone 11 Pro is powered by a hexa-core Apple A13 Bionic processor. It comes with 4GB of RAM.',95599)
+
+INSERT INTO devices VALUES('Nokia 5.3','NOK53','Nokia','nokia53.jpg','Nokia 5.3 smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2 GHz, Quad core, Kryo 260 + 1.8 GHz, Quad core, Kryo 260) processor. It runs on the Qualcomm Snapdragon 665 Chipset. It has 3 GB RAM and 64 GB internal storage.' 14000)
+INSERT INTO devices VALUES('Nokia 7.2','NOK72','Nokia','nokia72.jpg','Nokia 7.2 Android smartphone. Announced Sep 2019. Features 6.3″ IPS LCD display, Snapdragon 660 chipset, 3500 mAh battery, 128 GB storage, 6 GB RAM',18500)
+INSERT INTO devices VALUES('Nokia 2.6','NOK26','Nokia','nokia26.jpg','Nokia 2.6 smartphone has a IPS LCD display. It measures 154 mm x 75.8 mm x 7.8 mm and weighs 169 grams. The screen has a resolution of Full HD (1080 x 1920 pixels) and 401 ppi pixel density.',9000)
+
+INSERT INTO devices VALUES('Redmi 9','RED090','Xiaomi','redmi9.jpg','The phone comes with a 6.53-inch touchscreen display with a resolution of 720x1600 pixels and an aspect ratio of 20:9. Redmi 9 is powered by an octa-core MediaTek Helio G35 processor. It comes with 4GB of RAM. The Redmi 9 runs Android 10 and is powered by a 5000mAh battery.',8999)
+INSERT INTO devices VALUES('Redmi 9 Prime','RED09P','Xiaomi','redmi9p.jpg','Redmi 9 Prime comes with Octa-core Helio G80 processor and upto 2.0GHz clock speed. It also comes with 13 MP Quad Rear camera setup + Ultra-wide and Macro mode along with 8 MP front camera.',9999)
+INSERT INTO devices VALUES('Redmi Note 9','REDN90','Xiaomi','redmin9.jpg','The Redmi Note 9 is an entry-level offering from Xiaomi in the Note 9 series. It shares the same design as the Redmi Note 9 Pro and the Redmi Note 9 Pro Max. It sports a 6.53-inch display with a hole-punch on the top left corner. There is Corning Gorilla Glass 5 to protect the display',11999)
+INSERT INTO devices VALUES('Redmi Note 9 Pro Max','REDN9P','Xiaomi','redmin9p.jpg','Redmi Note 9 Pro Summary It has a 6.67-inch LCD screen with a 60Hz refresh rate and hole-punch front camera at the top. The processor is a Qualcomm Snapdragon 720G which is surprisingly powerful for this segment',16499)
+
+INSERT INTO devices VALUES('Samsung Galaxy M31s','SAMGM31','Samsung','samgalm31.jpg','Samsung Galaxy M31 smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.3 GHz, Quad core, Cortex A73 + 1.7 GHz, Quad core, Cortex A53) processor. It runs on the Samsung Exynos 9 Octa 9611 Chipset',22580)
+INSERT INTO devices VALUES('Samsung Galaxy M21','SAMG21','Samsung','samgalm21.jpg','Samsung Galaxy M21 smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.3 GHz, Quad core, Cortex A73 + 1.7 GHz, Quad core, Cortex A53) processor. It runs on the Samsung Exynos 9 Octa 9611 Chipset',15249)
+
+INSERT INTO devices VALUES('OnePlus Nord','AN000','OnePlus','oneplusn.jpg','OnePlus Nord smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.4 GHz, Single core, Kryo 475 + 2.2 GHz, Single core, Kryo 475 + 1.8 GHz, Hexa Core, Kryo 475) processor. It runs on the Qualcomm Snapdragon 765G Chipset',27999)
+INSERT INTO devices VALUES('OnePlus 8','A8000','OnePlus','oneplus8.jpg','The OnePlus 8 has a 6.55-inch AMOLED panel with sloping sides, a wide colour gamut, and a hole-punch cutout in the upper left corner. The 90Hz refresh rate makes usage in general feel fluid and snappy. It also has an in-display fingerprint sensor, which is super quick at authentication.',41999)
+INSERT INTO devices VALUES('OnePlus 8 Pro','A8001','OnePlus','oneplus8p.jpg','The OnePlus 8 Pro is an IP68 rated phone that is resistant to dust and water. It comes with an impressive 6.78-inch AMOLED panel that has a resolution of 1440x3168 pixels with high color accuracy and HDR10+ support. Also, it can run at 120Hz at the QHD+ resolution.',54990)
+INSERT INTO devices VALUES('OnePlus 7T Pro McLaren Edition','A7003','OnePlus','oneplusmac.jpg','OnePlus 7T Pro smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.96 GHz, Single core, Kryo 485 + 2.42 GHz, Tri core, Kryo 485 + 1.8 GHz, Quad core, Kryo 485) processor',58999)
+
+INSERT INTO devices VALUES('Google Pixel 4 XL','G-2PW4100','Google','gp4xl.jpg','The phone comes with a 6.30-inch touchscreen display with a resolution of 1440x3040 pixels at a pixel density of 537 pixels per inch (ppi) and an aspect ratio of 19:9. Google Pixel 4 XL is powered by an octa-core Qualcomm Snapdragon 855 processor',83900)
+INSERT INTO devices VALUES('Google Pixel 4','G-2PW4200','Google','gp4.jpg','The Google Pixel 4 gets a 5.7-inch screen, which has an OLED display having 1,080 x 2,280 pixels screen resolution. It results in a pixel density of 443 PPI. It also gets Corning Gorilla Glass v5 for screen protection. The device has a non-expandable 64GB internal storage',79990)
+
+INSERT INTO devices VALUES('Sony Xperia XZ2 Compact','D2302','Sony','sonyz2.jpg','The phone comes with a 5.00-inch touchscreen display with a resolution of 1080x2160 pixels. Sony Xperia XZ2 Compact is powered by an octa-core Qualcomm Snapdragon 845 processor. It comes with 4GB of RAM. The Sony Xperia XZ2 Compact runs Android 8.0 and is powered by a 2780mAh non-removable battery.',72042)
+INSERT INTO devices VALUES('Sony Xperia XA2 Ultra','D5325','Sony','sonya2u.jpg','Sony Xperia XA2 Ultra smartphone was launched in January 2018. The phone comes with a 6.00-inch touchscreen display with a resolution of 1080x1920 pixels. Sony Xperia XA2 Ultra is powered by an octa-core Qualcomm Snapdragon 630 processor. It comes with 4GB of RAM.',74164)
+INSERT INTO devices VALUES('Sony Xperia XA2','E4215','Sony','sonya2.jpg','Sony Xperia XA2 Summary Sony Xperia XA2 smartphone was launched in January 2018. The phone comes with a 5.20-inch touchscreen display with a resolution of 1080x1920 pixels. Sony Xperia XA2 is powered by an octa-core Qualcomm Snapdragon 630 processor. It comes with 3GB of RAM.',21990)
+INSERT INTO devices VALUES('Sony Xperia XA1 Plus','F2125','Sony','sonya1.jpg','Sony Xperia XA1 Plus smartphone was launched in August 2017. The phone comes with a 5.50-inch touchscreen display with a resolution of 1080x1920 pixels. Sony Xperia XA1 Plus is powered by a 1.6GHz octa-core MediaTek Helio P20 (MT6757) processor. It comes with 3GB of RAM.',15990)
+
+INSERT INTO devices VALUES('Asus Zenfone Max Pro M1','AZMPM1','Asus','azmpm1.jpg','',7999)
+INSERT INTO devices VALUES('Asus Zenfone Max Pro M2','AZMPM2','Asus','azmpm2,jpg','',11999)
+INSERT INTO devices VALUES(Asus Zenfone 3 Deluxe','AZ3D00','Asus','az3d.jpg','',17999)
+INSERT INTO devices VALUES('Asus Zenfone Pegasus 4S Max','AZP4SM','Asus','azp4sm.jpg','',15785)
+
+INSERT INTO devices VALUES('Realme 7,'REA007','Oppo','rea7.jpg','',14999)
+INSERT INTO devices VALUES('Realme X2 Pro','REA0X2','Oppo','reax2p.jpg','',35999)
+INSERT INTO devices VALUES('Realme 6 Pro,'REA06P','Oppo','rea6p.jpg','',16999)
+INSERT INTO devices VALUES('Realme X3','REA0X3','Oppo','reax3.jpg','',25999)
+
+INSERT INTO devices VALUES('Moto X4','MOT0X4','Motorola','motox4.jpg','',22999)
+INSERT INTO devices VALUES('Moto Z with Style Mod','MOTZSM','Motorola','motozs.jpg','',29999)
+INSERT INTO devices VALUES('Moto G5 Plus','MOTG5P','Motorola','motogp.jpg','',13999)
+INSERT INTO devices VALUES('Moto M','MOT00M','Motorola','motom.jpg','',15999)
+
+INSERT INTO devices VALUES('Oppo A12','OPPA12','Oppo','oppoa12.jpg','',9990)
+INSERT INTO devices VALUES('Oppo Reno 3 Pro','OPPR3P','Oppo','oppor3p.jpg','',26590)
+INSERT INTO devices VALUES('Oppo Find X2','OPPFX2','Oppo','oppofx2.jpg','',64990)
+INSERT INTO devices VALUES('Oppo A31 (2020),'OPPA31','Oppo','oppoa31.jpg','',12490)
+
+INSERT INTO devices VALUES('VIVO V7 Plus','VIVV7P','VIVO','viv7p.jpg','',21990)
+INSERT INTO devices VALUES('VIVO V5s Perfect Selfie','VIVV5S','VIVO','viv5p.jpg','',17990)
+INSERT INTO devices VALUES('VIVO Y69,'VIVY69','VIVO','vivy69.jpg','',14990)	
+INSERT INTO devices VALUES('VIVO Y66','VIVY66','VIVO','vivy66.jpg','',13990)
+

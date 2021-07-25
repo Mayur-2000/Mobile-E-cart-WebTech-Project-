@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <style>
+
+                    /*body{background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(11).jpg");
+                    background-size: 1400px 750px;}*/
+
+                    /*body{background-image: url("images/hdb.jpg");
+                    background-size: 100%;}*/
+
+
+                    input[type=text], select {
+                        width: 50%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid rgb(119, 98, 98);
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=password], select {
+                        width: 50%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid rgb(119, 98, 98);
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+                    
+                    input[type=submit] {
+                        width: 50%;
+                        background-color: rgb(8, 65, 99);
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+
+                    button[type=button] {
+                        width: 15%;
+                        background-color: rgb(71, 78, 82);
+                        color: white;
+                        padding: 10px 10px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                    }
+                    
+                    input[type=submit]:hover {
+                        background-color: #232357;
+                    }
+
+                     button[type=button]:hover {
+                        background-color: #232357;
+                    }
+                    
+	                body {
+                          height: 600px;
+                          background-color: #12F7F7; /* For browsers that do not support gradients */
+                          background-image: linear-gradient(to bottom right, #12F7F7, white);
+                         }
+
+                    
+                   /* div {
+                        border-radius: 5px;
+                        background-color: #f2f2f2;
+                        padding: 20px;
+                    }*/
+                    /*h2{text-align: center}*/
+                    </style>
+
+            <script>
+                function alet(){
+                    alert("do you want to continue..");}
+            </script> 
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#sbtbtn").click(function(){
+      if(validate())
+      {
+
+        $.post("http://localhost:8080/vvn/reg.html",
+        {
+         //fname: $("#fname").val(),
+         //lname: $("#lname").val(),
+         Email: $("#Email").val(),
+         psw: $("#psw").val()
+                          },
+        function(data,status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
+
+      }
+    });
+});
+
+function validate()
+{
+    var returnstatus=false;
+
+   //var fname= $("#fname").val().trim();
+      //  var lname= $("#lname").val().trim();
+         var Email = $("#Email").val().trim();
+         var psw= $("#psw").val().trim();
+
+
+ if(!ValidateEmail(Email))
+ {
+$("#msgEmail").text("Invalid username!");
+}
+
+if(psw.length<=0)
+{
+    $("#msgpsw").text("Incorrect password!");
+}
+
+
+if( Email.trim().length>=0 && psw.length>=0)
+ {
+    
+
+    $("msgEmail").text("");
+    returnstatus=true;
+
+    $("msgpsw").text("");
+    returnstatus=true;
+ }
+
+    return returnstatus;
+
+}
+
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid username or password!")
+    return (false)
+}
+
+
+
+</script>
+
+
+           </head>
+
+<body>
+<h2> SignUp form</h2>
+<form method="post" action="sign.php">
+
+    
+    
+    <label for="Email">Email:</label><br>
+    <input type="text" id="Email" name="Email" placeholder="Enter your Email....">
+    <label for="Email" id="msgEmail"></label><br><br>
+
+    <label for="psw">Password:</label><br>
+    <input type="password" id="psw" name="psw" placeholder="Enter your password....">
+    <label for="psw" id="msgpsw"></label><br><br>
+  
+    
+    <input  type="submit"  value="Signup!" id="sbtbtn">
+</form>
+
+
+</body>
+</html>
+
+
+

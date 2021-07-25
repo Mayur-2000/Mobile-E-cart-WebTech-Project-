@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first page</title>
+	<style type="text/css">
+		button{
+                        width: 33%;
+                        background-color: rgb(71, 78, 82);
+                        color: white;
+                        padding: 20px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+
+                    }
+                    
+
+                     button:hover {
+                        background-color: #232357;
+                    }
+                    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20%;
+  background-color: black;
+}
+
+body {
+  height: 700px;
+  background-color: #12F7F7; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #12F7F7, white);
+}
+</style>
+<script type="text/javascript">
+	function goLogin() {
+		     document.location.href = "login.html";
+ 
+	}
+	function goSignin() {
+		     document.location.href = "signin.html";
+ 
+	}
+	function goAmin() {
+		     document.location.href = "admin.php";
+ 
+	}
+	
+</script>
+</head>
+<body>
+	<img src="./bootstrap/img/oneplus8p.jpg"><br>
+<button onclick="goAmin()">ADMIN</button>
+<button onclick="goLogin()">LOGIN</button>
+<button onclick="goSignin()">SIGNUP</button>
+</body>
+</html>
